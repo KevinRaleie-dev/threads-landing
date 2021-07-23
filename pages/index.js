@@ -8,11 +8,11 @@ export default function Home() {
         <title>Threads - The peer-to-peer fashion marketplace</title>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Discover unique South African Fashion, from African attire to streetwear whatever your style we got you." />
+        <meta property="og:description" content="Discover unique South African Fashion, from African attire to streetwear whatever your style we got you." />
         <meta property="og:title" content="Threads: Join the waiting list." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="/public/ogimage.png" />
+        <meta property="og:url" content="https://threadsapp.netlify.app/" />
+        <meta property="og:image" content="https://threadsapp.netlify.app/public/ogimage.png" />
       </Head>
      <main className="sm:grid sm:grid-cols-2 sm:gap-4">
         <div className="sm:p-2 md:p-10">
