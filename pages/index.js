@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <meta property="og:title" content="Threads: Join the waiting list." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://threadsapp.netlify.app/" />
-        <meta property="og:image" content="https://threadsapp.netlify.app/public/ogimage.png" />
+        <meta property="og:image" content="https://threadsapp.netlify.app/images/ogimage.png" />
       </Head>
      <main className="sm:grid sm:grid-cols-2 sm:gap-4">
         <div className="sm:p-2 md:p-10">
@@ -25,7 +26,9 @@ export default function Home() {
           <p className="text-center sm:text-left mt-8 text-sm sm:text-lg font-light ">From african attire to streetwear. Indie designers to vintage, whatever your style we got you.</p>
           <p className="text-center sm:text-left mt-5 text-sm sm:text-lg font-light">Become part of a community that wants to transform fashion one item at a time.</p>
           <div className="flex flex-col justify-items-center sm:items-start">
-            <button className="mt-8 px-9 py-3 bg-gray-900 text-white font-medium rounded-md">Join Waitlist</button>
+            <Link href="https://x3763ggzaux.typeform.com/to/cJ61FIsJ" passHref>
+              <button className="mt-8 px-9 py-3 bg-gray-900 text-white font-medium rounded-md">Join Waitlist</button>
+            </Link>
           </div>
         </div>
         <div className="sm:grid sm:place-items-center sm:pb-0 pb-5 ">
