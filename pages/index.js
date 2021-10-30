@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container-sm p-10">
       <Head>
         <title>Threads - The peer-to-peer fashion marketplace</title>
-        <meta charset="UTF-8"/>
+        <meta charSet="UTF-8"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:description" content="Discover unique South African Fashion, from African attire to streetwear whatever your style we got you." />
         <meta property="og:title" content="Threads: Join the waiting list." />
@@ -33,9 +33,9 @@ export default function Home() {
         </div>
         <div className="sm:grid sm:place-items-center sm:pb-0 pb-5 ">
           <Image
-            src="/threads-mockup.png"
-            alt="Threads app"
-            width={550}
+            src="/threads-ui.png"
+            alt="Threads app design"
+            width={695}
             height={700}
           />
         </div>
