@@ -20,6 +20,14 @@ export default function Home() {
           <div className="text-center sm:text-left">
             <h1 className="font-medium text-5xl sm:text-4xl text-gray-900">Threads</h1>
           </div>
+          <div className="sm:hidden sm:place-items-center sm:pb-0 pb-5">
+            <Image      
+              src="/threads-ui.png"
+              alt="Threads app design"
+              width={695}
+              height={700}
+            />
+          </div>
           <div>
             <h3 className="text-2xl text-center sm:text-left sm:text-7xl font-semibold sm:font-bold mt-10 text-gray-900">Discover unique South African Fashion</h3>
           </div>
@@ -31,7 +39,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="sm:grid sm:place-items-center sm:pb-0 pb-5 ">
+        <div className="hidden sm:grid sm:place-items-center sm:pb-0 pb-5 ">
           <Image
             src="/threads-ui.png"
             alt="Threads app design"
